@@ -21,10 +21,13 @@ De par son extrême légèreté (moins de 600 Kio3), il est également très pop
 1.
 
 CREATE TABLE student (
-	id	INTEGER,
+	id_s	INTEGER,
 	name	varchar(10), 
 	lastname	varchar(15),
 	email	varchar(20),
 	phone1 varchar(20),
-	PRIMARY KEY("id" AUTOINCREMENT)
+	PRIMARY KEY("id_s" AUTOINCREMENT)
 )
+
+
+
