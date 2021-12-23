@@ -53,3 +53,22 @@ VALUES(2,"ngoie","kasongo","ngoier@gmail.com","0999956734");
 INSERT INTO student 
 VALUES(3,"mwamba","mwamba","mwamba@gmail.com","0999956734");
 ```
+``` sql
+INSERT INTO course(id_c,title,edition,author,id_etr)
+VALUES(1,"algorithme","5eme","genie of genie",1);
+
+INSERT INTO course(id_c,title,edition,author,id_etr)
+VALUES(2,"python","5eme","Acen",2);
+
+INSERT INTO course 
+VALUES(3,"java","20 eme","hergy",3);
+
+INSERT INTO course 
+VALUES(4,"html avancee","34 eme","josh",2);
+
+INSERT INTO course 
+VALUES(5,"uml 3","30 eme","josh",1);
+
+INSERT INTO course 
+VALUES(6,"boostrapp","30 eme","josh",3);
+```
