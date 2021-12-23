@@ -18,8 +18,8 @@ De par son extrême légèreté (moins de 600 Kio3), il est également très pop
 
 
 # crud
-1.
-
+## 1. create
+```
 CREATE TABLE student (
 	id_s	INTEGER,
 	name	varchar(10), 
@@ -39,6 +39,15 @@ CREATE TABLE course (
 	PRIMARY KEY("id_c" AUTOINCREMENT),
 	FOREIGN KEY(id_etr) REFERENCES student(id_s)
 )
+```
+## 1.1 insert
+```
+INSERT INTO student(id_s,name,lastname,email,phone1)
+VALUES(1,"ilunga","kazadi","ilunga@gmail.com","0999988334");
 
+INSERT INTO student(id_s,name,lastname,email,phone1)
+VALUES(2,"ngoie","kasongo","ngoier@gmail.com","0999956734");
 
-
+INSERT INTO student 
+VALUES(3,"mwamba","mwamba","mwamba@gmail.com","0999956734");
+```
