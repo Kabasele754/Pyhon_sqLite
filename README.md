@@ -30,4 +30,15 @@ CREATE TABLE student (
 )
 
 
+CREATE TABLE course (
+	id_c	INTEGER,
+	title	varchar(20), 
+	edition	varchar(15),
+	author	varchar(20),
+	id_etr	INTEGER,
+	PRIMARY KEY("id_c" AUTOINCREMENT),
+	FOREIGN KEY(id_etr) REFERENCES student(id_s)
+)
+
+
 
