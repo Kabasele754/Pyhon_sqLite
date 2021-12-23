@@ -15,3 +15,16 @@ dans certains produits d'Apple, d'Adobe et de McAfee,
 dans les bibliothèques standards de nombreux langages comme PHP ou Python.
 
 De par son extrême légèreté (moins de 600 Kio3), il est également très populaire sur les systèmes embarqués, notamment sur la plupart des smartphones et tablettes modernes : les systèmes d'exploitation mobiles iOS, Android et Symbian l'utilisent comme base de données embarquée4. Au total, on peut dénombrer plus d'un milliard de copies connues et déclarées de la bibliothèque5.
+
+
+# crud
+1.
+
+CREATE TABLE student (
+	id	INTEGER,
+	name	varchar(10), 
+	lastname	varchar(15),
+	email	varchar(20),
+	phone1 varchar(20),
+	PRIMARY KEY("id" AUTOINCREMENT)
+)
