@@ -19,7 +19,8 @@ De par son extrême légèreté (moins de 600 Kio3), il est également très pop
 
 # crud
 ## 1. create
-```
+
+```sql
 CREATE TABLE student (
 	id_s	INTEGER,
 	name	varchar(10), 
@@ -41,7 +42,8 @@ CREATE TABLE course (
 )
 ```
 ## 1.1 insert
-```
+
+```sql
 INSERT INTO student(id_s,name,lastname,email,phone1)
 VALUES(1,"ilunga","kazadi","ilunga@gmail.com","0999988334");
 
