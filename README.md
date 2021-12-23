@@ -72,10 +72,21 @@ VALUES(5,"uml 3","30 eme","josh",1);
 INSERT INTO course 
 VALUES(6,"boostrapp","30 eme","josh",3);
 ```
-## 2 Select 
+## 2 Select or read
 ``` sql
 SELECT * FROM student WHERE id_s = 1 or id_s = 2 ;
 SELECT * FROM student;
 SELECT name, email FROM student;
 SELECT phone1 FROM student;
+```
+``` sql
+SELECT * FROM course;
+
+SELECT * FROM course WHERE id_etr = 1;
+
+SELECT * FROM course WHERE id_etr = 2;
+
+SELECT * FROM course WHERE title = 'java';
+
+SELECT * FROM course WHERE author = 'josh';
 ```
