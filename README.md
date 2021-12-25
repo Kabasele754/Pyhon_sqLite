@@ -26,8 +26,33 @@ Les builds nocturnes corrigent souvent les bogues signalés après la dernière 
 
 - Navigateur de base de données pour SQLite [MACOS](https://download.sqlitebrowser.org/DB.for.SQLite-3.12.dmg)
 
+#### Homebrew
 
-# crud
+Si vous préférez utiliser Homebrew pour macOS, notre dernière version peut être installée via Homebrew Cask :
+
+```bash
+brew install --cask db-browser-for-sqlite
+```
+## Linux
+
+Pour la dernière version est disponible sous forme d'AppImage, de packages Snap et de packages spécifiques à la distribution :
+
+#### AppImage
+
+- DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage [Linux](https://download.sqlitebrowser.org/B_Browser_for_SQLite-v3.12.2-x86_64.AppImage)
+
+- Version Snap Release
+  
+```bash
+snap install sqlitebrowser
+```
+- Snap Nightly
+  
+```bash
+snap install sqlitebrowser --devmode
+```
+
+## CRUD
 ## 1. create
 
 ```sql
