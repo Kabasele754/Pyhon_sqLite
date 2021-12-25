@@ -97,4 +97,10 @@ UPDATE student SET name= "mutemba", email="mutemba@gmail.com" WHERE id_s = 3
 UPDATE course SET id_etr=1  WHERE id_c = 4
 
 ```
+## 4 Delete 
+```sql
+DELETE FROM student  WHERE id_s = 3
+DELETE FROM student  WHERE id_s = 1
+
+```
 
