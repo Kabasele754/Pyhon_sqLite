@@ -51,9 +51,27 @@ snap install sqlitebrowser
 ```bash
 snap install sqlitebrowser --devmode
 ```
+- Debian
 
-## CRUD
+Notez que Debian se concentre davantage sur la stabilité que sur les fonctionnalités les plus récentes. Par conséquent, les packages contiendront généralement une version plus ancienne, par rapport à la dernière version.
+
+Mettez à jour le cache en utilisant :
+```bash
+sudo apt-get update
+```
+
+Installez le package en utilisant :
+
+```bash
+sudo apt-get install sqlitebrowser
+
+```
+
+
+
+## Exemple de Create Read Update Delete
 ## 1. create
+
 
 ```sql
 CREATE TABLE student (
