@@ -91,7 +91,7 @@ SELECT * FROM course WHERE title = 'java';
 SELECT * FROM course WHERE author = 'josh';
 ```
 
-## 4 Update 
+## 3 Update 
 ```sql
 UPDATE student SET name= "mutemba", email="mutemba@gmail.com" WHERE id_s = 3
 UPDATE course SET id_etr=1  WHERE id_c = 4
