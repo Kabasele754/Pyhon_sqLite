@@ -12,11 +12,20 @@ dans les bibliothèques standards de nombreux langages comme PHP ou Python.
 ## Windows
 Notre dernière version (3.12.2) pour Windows :
 
-- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 32 bits](https://sqlitebrowser.org/dl/)
-- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 32 bits](https://sqlitebrowser.org/dl/)
+- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 32 bits](https://download.sqlitebrowser.org/DB.for.SQLite-3.12-win32.msi)
+- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 32 bits](https://download.sqlitebrowser.org/DB.for.SQLite-3.12-win32.zip)
 
-- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 64 bits](https://sqlitebrowser.org/dl/)
-- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 64 bits](https://sqlitebrowser.org/dl/)
+- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 64 bits](https://download.sqlitebrowser.org/DB.for.SQLite-3.12-win64.msi)
+- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 64 bits](https://download.sqlitebrowser.org/DB.for.SQLite-3.12-win64.zip)
+
+Remarque - Si, pour une raison quelconque, la version standard de Windows ne fonctionne pas (par exemple, génère une erreur), essayez une version nocturne ( ci-dessous ).
+
+Les builds nocturnes corrigent souvent les bogues signalés après la dernière version. ??
+
+## macOS
+
+- Navigateur de base de données pour SQLite [MACOS](https://download.sqlitebrowser.org/DB.for.SQLite-3.12.dmg)
+
 
 # crud
 ## 1. create
