@@ -12,12 +12,11 @@ dans les bibliothèques standards de nombreux langages comme PHP ou Python.
 ## Windows
 Notre dernière version (3.12.2) pour Windows :
 
-- Navigateur DB pour SQLite - Programme d'installation standard pour Windows 32 bits
-- Navigateur DB pour SQLite - .zip (pas d'installateur) pour Windows 32 bits
+- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 32 bits](https://sqlitebrowser.org/dl/)
+- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 32 bits](https://sqlitebrowser.org/dl/)
 
-- Navigateur DB pour SQLite - Programme d'installation standard pour Windows 64 bits
-- Navigateur DB pour SQLite - .zip (pas d'installateur) pour Windows 64 bits
-
+- Navigateur DB pour SQLite - Programme d'installation standard pour [Windows 64 bits](https://sqlitebrowser.org/dl/)
+- Navigateur DB pour SQLite - .zip (pas d'installateur) pour [Windows 64 bits](https://sqlitebrowser.org/dl/)
 
 # crud
 ## 1. create
